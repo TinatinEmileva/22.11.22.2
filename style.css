@@ -1,3 +1,36 @@
 *{
   box-sizing: border-box;
 }
+main{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 880px;
+}
+header{
+  flex: 0 0 100%;
+  padding: 10px 15px;
+  background-color: aqua;
+
+}
+aside{
+  flex: 0 0 250px;
+  padding: 10px 15px;
+  flex: 0 0 250px;
+  background-color: rgba(153, 236, 28, 0.486);
+}
+section{
+  margin: 15px;
+  flex-wrap: wrap;
+  display: flex;
+  background-color: white;
+}
+div{
+  max-width: 100px;
+  margin: 5px;
+}
+article{
+  flex: 1 1 0;
+  padding: 10px 15px;
+  background-color: rgba(205, 134, 63, 0.562);
+}
